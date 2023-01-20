@@ -11,7 +11,7 @@ class TodosGrid extends Component {
   }
 
   componentDidMount() {
-    fetch('https://gorest.co.in/public/v1/todos' ,{
+    fetch('https://gorest.co.in/public/v1/todos',{
         method: "GET",
         mode: "no-cors",
     })
